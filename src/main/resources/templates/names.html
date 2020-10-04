@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en"> xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>names page</title>
+</head>
+<body>
+ <p>vardai is saraso</p>
+
+<table>
+    <thead>
+    <tr>Name</tr>
+    </thead>
+    <tbody>
+    <tr th :each="name":${names}>
+        <td>th:text="${mane}"</td>
+
+    </tr>
+
+    </tbody>
+
+</table>
+</body>
+</html>
